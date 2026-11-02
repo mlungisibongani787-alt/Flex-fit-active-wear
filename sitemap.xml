@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace YOUR-NETLIFY-SITE with the actual Netlify site name after deployment. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/</loc></url>
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/about.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/items.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/images.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/enquiry.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/contact.html</loc></url>
+</urlset>

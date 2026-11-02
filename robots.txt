@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace the placeholder with the published Netlify URL after deployment.
+Sitemap: https://YOUR-NETLIFY-SITE.netlify.app/sitemap.xml

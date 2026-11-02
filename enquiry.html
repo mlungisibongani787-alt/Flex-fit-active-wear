@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Phemelo Dithebe">
+<meta name="keywords" content="Flex Fit Active Wear, affordable women's activewear, gym wear, Johannesburg, women's fitness clothing">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+<title>Make an Enquiry | Flex Fit Active Wear</title>
+<meta name="description" content="Send Flex Fit Active Wear an enquiry about products, sizes, prices and availability. Complete the form for an immediate on-page response.">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Flex Fit Active Wear home">
+      <img src="images/flex-fit-activewear-brand-image.jpg" alt="Flex Fit Active Wear brand image">
+      <span>FLEX FIT<br><small>ACTIVE WEAR</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav aria-label="Main navigation">
+      <ul class="nav-links" id="primary-nav">
+        <li><a href="index.html" data-page="index.html">Home</a></li>
+        <li><a href="about.html" data-page="about.html">About</a></li>
+        <li><a href="items.html" data-page="items.html">Shop items</a></li>
+        <li><a href="images.html" data-page="images.html">Gallery</a></li>
+        <li><a href="enquiry.html" data-page="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html" data-page="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero"><div class="container"><p class="eyebrow">We are here to help</p><h1>Product enquiry</h1><p class="lead">Tell us which activewear item you are interested in and we will guide you on the next step.</p></div></section>
+<section class="section"><div class="container">
+ <form class="form-card" id="enquiry-form" novalidate>
+  <h2>Enquiry details</h2>
+  <div class="form-grid">
+   <div><label for="first-name">First name *</label><input id="first-name" name="firstName" autocomplete="given-name" required minlength="2"><small class="field-error" id="first-name-error"></small></div>
+   <div><label for="surname">Surname *</label><input id="surname" name="surname" autocomplete="family-name" required minlength="2"><small class="field-error" id="surname-error"></small></div>
+   <div><label for="email">Email address *</label><input id="email" name="email" type="email" autocomplete="email" required><small class="field-error" id="email-error"></small></div>
+   <div><label for="phone">Phone number *</label><input id="phone" name="phone" type="tel" inputmode="tel" placeholder="e.g. 082 123 4567" required pattern="(\+27|0)[0-9\s-]{9,13}"><small class="field-error" id="phone-error"></small></div>
+  </div>
+  <label for="product">Product *</label><select id="product" name="product" required><option value="">Choose a product</option><option>Black two-piece set</option><option>Purple two-piece set</option><option>Short set</option><option>Black jumpsuit</option><option>Other / general question</option></select><small class="field-error" id="product-error"></small>
+  <label for="size">Preferred size</label><select id="size" name="size"><option value="">Select a size (optional)</option><option>Small (S)</option><option>Medium (M)</option><option>Large (L)</option><option>Extra Large (XL)</option><option>Not sure yet</option></select>
+  <label for="message">Your question *</label><textarea id="message" name="message" rows="5" required minlength="10" placeholder="Ask about size, stock, fabric or ordering."></textarea><small class="field-error" id="message-error"></small>
+  <p class="form-note">Fields marked * are required. This demonstration form validates your details and prepares an enquiry message; it does not store submissions in a database.</p>
+  <button type="submit">Submit enquiry</button>
+  <div class="form-status" id="enquiry-status" role="status" aria-live="polite"></div>
+  <div id="enquiry-actions" hidden><p>Your enquiry is ready. You can send it to Flex Fit using WhatsApp or copy the message.</p><a class="button secondary" id="enquiry-whatsapp" target="_blank" rel="noopener">Continue on WhatsApp</a><button class="button outline" type="button" id="copy-enquiry">Copy enquiry</button></div>
+ </form>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><strong>FLEX FIT ACTIVE WEAR</strong><p>Be active and beautiful at an affordable price.</p></div>
+    <div><p>Johannesburg, South Africa</p><p><a href="tel:+27822172610">WhatsApp / Call: 082 217 2610</a></p><p><a href="https://www.instagram.com/flex_fitgymwear/" target="_blank" rel="noopener">Instagram: @flex_fitgymwear</a></p></div>
+    <div><p><a href="enquiry.html">Make an enquiry</a></p><p><a href="contact.html">Contact us</a></p><p>© <span data-year></span> Flex Fit Active Wear</p></div>
+  </div>
+</footer>
+</body>
+</html>
