@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Black two-piece set",
+    "image": "black-activewear-two-piece-set.jpeg",
+    "price": "R500",
+    "description": "Long-sleeve two-piece gym set. Please enquire to confirm available sizes and fabric details.",
+    "sizes": "Confirm sizes by enquiry",
+    "keywords": "black gym set two piece long sleeve"
+  },
+  {
+    "name": "Purple two-piece set",
+    "image": "purple-activewear-two-piece-set.jpeg",
+    "price": "R500",
+    "description": "Long-sleeve two-piece gym set. Sizes listed: S, M, L and XL. Please enquire to confirm current availability.",
+    "sizes": "S, M, L, XL",
+    "keywords": "purple gym set two piece"
+  },
+  {
+    "name": "Short set",
+    "image": "short-activewear-two-piece-set.jpeg",
+    "price": "R450",
+    "description": "Two-piece activewear set. Sizes listed: S, M, L and XL. Please enquire to confirm current availability and fabric details.",
+    "sizes": "S, M, L, XL",
+    "keywords": "short set gym wear"
+  },
+  {
+    "name": "Black jumpsuit",
+    "image": "black-activewear-jumpsuit.jpeg",
+    "price": "R450",
+    "description": "Long-sleeve activewear jumpsuit. Sizes listed: S, M, L and XL. Please enquire to confirm current availability.",
+    "sizes": "S, M, L, XL",
+    "keywords": "black jumpsuit activewear"
+  }
+]

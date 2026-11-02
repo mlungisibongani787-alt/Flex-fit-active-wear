@@ -1,0 +1,13 @@
+FLEX FIT ACTIVE WEAR — DEPLOYMENT
+
+This folder is the website publish root.
+It contains index.html alongside css/, js/, images/, and all other site pages.
+
+For Netlify:
+1. Extract this ZIP.
+2. Open the extracted folder named flexfit_repaired (the folder containing index.html).
+3. Drag that folder into Netlify's manual deploy area, or set the publish directory to this folder.
+4. Do not publish the outer ZIP or a parent folder that contains another nested project folder.
+
+For GitHub:
+Upload the CONTENTS of this folder to the repository root, keeping css/, js/, images/, data/, and the HTML pages in their folders.
